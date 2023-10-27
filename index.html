@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+    <div id="pomodoro-clock">
+        <div id="break">
+            <h3 id="break-label">Break Length</h3>
+            <button id="break-decrement">-</button>
+            <span id="break-length">5</span>
+            <button id="break-increment">+</button>
+        </div>
+        <div id="session">
+            <h3 id="session-label">Session Length</h3>
+            <button id="session-decrement">-</button>
+            <span id="session-length">25</span>
+            <button id="session-increment">+</button>
+        </div>
+        <div id="timer">
+            <h3 id="timer-label">Session</h3>
+            <span id="time-left">25:00</span>
+            <button id="start_stop">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <audio id="beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
